@@ -1,18 +1,17 @@
 .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/fonn.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: var(--footer-color);
-    max-width: 1600px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 200px 0;
-  }
-  
-  .hero-title {
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/fonn.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--footer-color);
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 200px 0;
+
+  &-title {
     margin-top: 0;
     margin-bottom: 30px;
     margin-left: auto;
@@ -26,7 +25,7 @@
     color: var(--white-color);
   }
   
-  .hero-btn {
+  &-btn {
     cursor: pointer;
     font-family: inherit;
     font-weight: 700;
@@ -41,12 +40,12 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      background-color: var(--white-color);
+      color: var(--accent-color);
+      border: 1px solid var(--accent-color);
+    }
   }
-  
-  .hero-btn:hover,
-  .hero-btn:focus {
-    background-color: var(--white-color);
-    color: var(--accent-color);
-    border: 1px solid var(--accent-color);
-  }
-  
+}
