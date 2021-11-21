@@ -2,7 +2,7 @@
     { 
         "format" : "compressed" , 
         "extensionName" : ".min.css" , 
-        "savePath" : "/css" 
+        "savePath" : "./css" 
     } 
 ],
 "liveSassCompile.settings.autoprefix" : [
