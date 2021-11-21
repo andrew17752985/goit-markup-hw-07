@@ -1,0 +1,21 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,KAAK,CAAC;EACF,iBAAiB,CAAA,QAAC;EAClB,cAAc,CAAA,QAAC;EACf,oBAAoB,CAAA,QAAC;EACrB,aAAa,CAAA,QAAC;EACd,8BAA8B,CAAA,yBAAC;EAC/B,yBAAyB,CAAA,QAAC;EAC1B,cAAc,CAAA,QAAC;EACf,kBAAkB,CAAA,QAAC;EACnB,aAAa,CAAA,kCAAC;EACd,YAAY,CAAA,QAAC;CACd;;ACXH,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,GAAG;CACxB",
+    "sources": [
+        "main.scss",
+        "utils/_variables.scss",
+        "components/_base.scss",
+        "components/_footer.scss",
+        "components/_header.scss",
+        "components/main/_advantages.scss",
+        "components/main/_client.scss",
+        "components/main/_command.scss",
+        "components/main/_hero.scss",
+        "components/main/_modal.scss",
+        "components/main/_work.scss",
+        "components/portfolio/_filter.scss",
+        "components/portfolio/_works.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
