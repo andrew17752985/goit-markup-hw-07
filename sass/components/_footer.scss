@@ -1,7 +1,12 @@
 .footer {
+  
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--footer-color);
+
+    &-social-icon{
+      fill: #ffffff;
+    }
 
     &-address {
       font-style: normal;
