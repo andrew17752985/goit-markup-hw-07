@@ -1,0 +1,57 @@
+/* Секция преимущества*/
+
+.features{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+  @media screen and (min-width:768px) {
+   display: flex;
+   flex-wrap: wrap; 
+   margin: -15px;
+  }
+  @media screen and (min-width:1200px) {
+    flex-wrap: nowrap;    
+  }
+}
+.features__item {
+  @media screen and (max-width:767px){
+    width: 100%;
+    &:not(:last-child){
+      margin-bottom: 30px;
+    }
+  }
+  @media screen and (min-width:768px) {
+    width: calc((100% - 2 * 30px) / 2);
+    margin: 15px;   
+  }
+  @media screen and (min-width:1200px) {
+    width: 270px;
+}
+}
+
+.features__title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  margin-bottom: 10px;
+  @media screen and (max-width:767px) {
+   text-align: center;   
+  }
+}
+.features__text {
+  margin: 0;
+}
+.features__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
+.features__icon {
+  width: 70px;
+  height: 70px;
+}

@@ -1,18 +1,28 @@
-@import 'utils/_variables';
+//UTILS
+@import "./utils/variables";
+@import "./utils/visually-hidden";
 
+//BASE
+@import "./base/common";
 
-@import 'components/_base';
-@import 'components/_footer';
-@import 'components/_header';
+//COMPONENTS
+@import "./components/logo";
+@import "./components/container";
+@import "./components/mobile-menu";
+@import "./components/section";
+@import "./components/section-title";
+@import "./components/site-button";
+@import "./components/social-list";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/contact-form";
 
-
-@import 'components/main/_advantages';
-@import 'components/main/_client';
-@import 'components/main/_command';
-@import 'components/main/_hero';
-@import 'components/main/_modal';
-@import 'components/main/_work';
-
-@import 'components/portfolio/_filter';
-@import 'components/portfolio/_works';
-
+//LAYOUT
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/about-us";
+@import "./layout/our-team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/portfolio";
